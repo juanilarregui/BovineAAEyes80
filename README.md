@@ -1,4 +1,4 @@
-## Dataset description
+## Dataset overview
 
 The BovineAAEyes80 is a dataset comprising 80 RGB images of 11 different bovines belonging to Aberdeen-Angus breed. The dataset is specially suited for detection/segmentation of iris/pupil regions of the bovine's eye, fundamental problems in automatic biometric recognition of animals. 
 
@@ -9,11 +9,13 @@ For each RGB image, there are three accompanying ground-truth label pictures, in
   
 Each image shows the bovine's head pictured from the left or right side. The photos have been taken at night using a regular visible light camera, employing the camera's built-in flash. The capture distance from the camera to the animal varies between 100 cm and 200 cm.
 
-Image resolution is 2100x1575 pixels for all images. Each picture is labeled as \<animal number\>\_\<_image number_\>, with animal number ranging from 1 to 11, and image number starting at 1 for each different bovine.
+Image resolution is 2100x1575 pixels for all images. Each picture is labeled as \<_animal number_\>\_\<_image number_\>, with animal number ranging from 1 to 11, and image number starting at 1 for each different bovine.
 
+### Files organization
 
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+There is a separate subfolder for each of the four types of images:
+  - RGB images are at `data/rgb/`,
+  - Outer Border labels are at `data/labels_outer_border/`,
+  - Inner border labels are at `data/labels_inner_border/`,
+  - ROI labels are at `data/labels_roi/`.
+For example: RGB image `5_1.png` can be found at subfolder `data/rgb/5_1.png`, whilst the corresponding ROI labels image is located at `data/labels_roi/5_1.png`.
