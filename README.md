@@ -18,6 +18,7 @@ There is a separate subfolder for each of the four types of images:
   - Outer Border labels are at `data/labels_outer_border/`,
   - Inner border labels are at `data/labels_inner_border/`,
   - ROI labels are at `data/labels_roi/`.
+
 For example: RGB image `5_1.png` can be found at subfolder `data/rgb/5_1.png`, whilst the corresponding ROI labels image is located at `data/labels_roi/5_1.png`.
 
-You can [download the dataset](https://github.com/juanilarregui/BovineAAEyes80/archive/master.zip) (~500MB) or [view the project on Github](https://github.com/juanilarregui/BovineAAEyes80)
+You can [download the dataset](https://github.com/juanilarregui/BovineAAEyes80/archive/master.zip) (~500MB) or [view the project on Github](https://github.com/juanilarregui/BovineAAEyes80).
