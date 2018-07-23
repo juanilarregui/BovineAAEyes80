@@ -22,3 +22,7 @@ There is a separate subfolder for each of the four types of images:
 For example: RGB image `5_1.png` can be found at subfolder `data/rgb/5_1.png`, whilst the corresponding ROI labels image is located at `data/labels_roi/5_1.png`.
 
 You can [download the dataset](https://github.com/juanilarregui/BovineAAEyes80/archive/master.zip) (~500MB) or [view the project on Github](https://github.com/juanilarregui/BovineAAEyes80).
+
+### Results of our segmentation method
+
+A table of the results achieved by our segmentation method, for every image, can be seen in [this link](https://raw.githubusercontent.com/juanilarregui/BovineAAEyes80/master/results_per_image.png).
