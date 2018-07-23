@@ -25,4 +25,4 @@ You can [download the dataset](https://github.com/juanilarregui/BovineAAEyes80/a
 
 ### Results of our segmentation method
 
-A table of the results achieved by our segmentation method, for every image, can be seen in [this link](https://raw.githubusercontent.com/juanilarregui/BovineAAEyes80/master/results_per_image.png).
+A table of the results achieved by our segmentation method, for every image, can be seen in [this link](https://raw.githubusercontent.com/juanilarregui/BovineAAEyes80/master/results_per_image.png). The evaluation metrics are Precision, Recall, F1 (Dice) and IoU (Jaccard index).
