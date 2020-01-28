@@ -26,3 +26,18 @@ You can [download the dataset](https://github.com/juanilarregui/BovineAAEyes80/a
 ### Results of our segmentation method
 
 A table of the results achieved by our segmentation method, for every image, can be seen in [this link](https://raw.githubusercontent.com/juanilarregui/BovineAAEyes80/master/results_per_image.png). The evaluation metrics are Precision, Recall, F1 (Dice) and IoU (Jaccard index).
+
+### Citations
+
+If you find this dataset useful for your research, please cite our work:
+
+`@article{larregui2019image,
+  title={An image processing pipeline to segment iris for unconstrained cow identification system},
+  author={Larregui, Juan I and Cazzato, Dario and Castro, Silvia M},
+  journal={Open Computer Science},
+  volume={9},
+  number={1},
+  pages={145--159},
+  year={2019},
+  publisher={De Gruyter}
+}`
